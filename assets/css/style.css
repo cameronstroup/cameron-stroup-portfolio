@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  list-style-type: none
+  list-style-type: none;
 }
 
 /*my code */
@@ -34,17 +34,51 @@ header h1 {
 }
 /*links to pages */
 
-
-
-
 header nav ul {
   display: flex;
- 
+
   flex-wrap: wrap;
   padding: 0 16px;
-  
+  width: fit-content;
 }
 
 header nav ul li {
-  margin: 0 0 0 120px;
+  margin: 0 0 0 100px;
+}
+/*picture of me */
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   
+}
+  
+}
+.aboutme p {
+  font-size: 23px;
+  display: block;
+  margin: center;
+}
+
+.hero {
+  background-color: rgb(196, 197, 255);
+
+
+}
+
+/*picture of Austin skyline*/
+.hero img {
+
+  width: 100%
+
+
+
+
+}
