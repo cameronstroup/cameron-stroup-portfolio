@@ -41,7 +41,7 @@ header nav ul {
   padding: 0 16px;
   width: fit-content;
 }
-
+/* spacing for links */
 header nav ul li {
   margin: 0 0 0 100px;
 }
@@ -68,6 +68,7 @@ header nav ul li {
 #about img {
   border: 1px solid #ddd;
   border-radius: 4px;
+  border-color: black;
   padding: 5px;
   width: 20%;
   display: flex;
@@ -75,46 +76,36 @@ header nav ul li {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background-color: #111;
 }
 
-/* used to even the the pictures */
-
+/* picture of horiseon website */
 .horiseson img {
   display: flex;
   flex-wrap: wrap;
   flex: 33.33%;
   padding: 5px;
   width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  border-color: black;
+  background-color: #111;
 }
+/* row containing the three unfished projects  */
+.row {
+  display: flex;
+}
+
 .row img {
   height: 205px;
   width: 75%;
-}
-.column1 {
-  flex: 33.33%;
-  padding: 5px;
-  width: 100%;
-}
-
-/* used to even the the pictures */
-
-.row ul li {
-  display: inline;
-  flex-wrap: wrap;
-  padding: 0 121px;
-  width: fit-content;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  border-color: black;
+  background-color: #111;
 }
 
-footer {
-  background-color: #fff;
-  width: 100%;
-  height: 120px;
-  font-family: catamaran;
-  font-size: 25px;
-
-  display: flex;
-  margin: center;
-}
+/* project imgages */
 
 .image {
   position: relative;
@@ -124,7 +115,7 @@ footer {
   display: flex;
   width: 33%;
 }
-
+/* comming soon in overlay */
 .image__overlay {
   position: absolute;
   top: 0;
@@ -140,24 +131,54 @@ footer {
   justify-content: center;
   opacity: 0;
 }
+/* creates hover effect  */
 .image__overlay:hover {
   opacity: 1;
 }
+/* Project title in overlay */
 .image__title {
   font-size: 1.25em;
   margin-top: 0.25em;
 }
-.row img {
-  height: 205px;
-  width: 75%;
-}
 
-.row {
-  display: flex;
-}
-
+/* creates spacing between pictures  */
 .column {
-  flex: 33.33%;
-  padding: 5px;
+  flex: 33.3%;
+  padding: 10px;
+}
+/* contains contact information */
+footer {
+  background-color: #fff;
   width: 100%;
+  height: 120px;
+  font-family: catamaran;
+  font-size: 25px;
+  display: flex;
+  margin: center;
+}
+/* project titles styling  */
+body h2 {
+  color: #070707;
+  font size: 60px ;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  font-family: "Muli", sans-serif;
+}
+.column h3 {
+  color: #7c795d;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0 0 24px;
+}
+.horiseson h3 {
+  color: #7c795d;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0 0 24px;
 }
