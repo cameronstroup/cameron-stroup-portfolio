@@ -14,6 +14,7 @@ https://cameronstroup.github.io/cameron-stroup-portfolio/
 Use links to navigate through the page and get to desired section 
 ![links to portfolio](https://user-images.githubusercontent.com/90347622/154872234-03508c5e-2805-4f9f-ac9e-0045e80c181c.JPG)
 Explore the rest of the page by scrolling up or down 
+Click on project images to access completed projects, non completed projects will show "Comming soon" when you hover over them 
 ## Contributing
 Pull requests are welcome. For major changes, please open let repository owner know to discuss what would you like to change.
 
