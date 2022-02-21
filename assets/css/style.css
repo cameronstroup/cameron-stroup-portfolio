@@ -158,17 +158,16 @@ footer {
 }
 /* project titles styling  */
 body h2 {
-  color: #070707;
-  font size: 60px ;
+  color: #7c795d;
+  font-size: 30px;
   transition: 0.5s;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
+
   font-family: "Muli", sans-serif;
 }
+/* project titles style */
 .column h3 {
   color: #7c795d;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", sans-serif
   font-size: 28px;
   font-weight: 400;
   line-height: 32px;
